@@ -16,7 +16,7 @@ temp_a<-read.table("train/Y_train.txt")
 temp_b<-read.table("test/Y_test.txt")
 Y_data<-rbind(temp_a,temp_b)
 
-# results in Y_data table of 10299 observations of 1 variable
+# results in subject_data table of 10299 observations of 1 variable
 temp_a<-read.table("train/subject_train.txt")
 temp_b<-read.table("test/subject_test.txt")
 subject_data<-rbind(temp_a,temp_b)
