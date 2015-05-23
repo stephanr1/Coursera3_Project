@@ -80,3 +80,7 @@ fBodyBodyGyroMag-meanFreq()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 fBodyBodyGyroJerkMag-meanFreq()
+
+Units: 
+Accelerations (columns containing "Acc") are given in standard gravity units 'g'
+Angular velocity measured by the gyroscope (columns containing "Gyro") are given in radians/second. 
