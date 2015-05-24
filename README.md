@@ -15,5 +15,6 @@ The data is split up in a training and a testing set and contains more variables
    extracts 79 columns ("means" and "std's") from the original data set
 ## 3. Uses descriptive activity info from "activity_labels.txt"
 ## 4. Labels extracted data ("mean_or_std") with subject and activity
+## 5. Computes mean values of the "means" and "std's" for each activity and for each individual
 ## 6. Writes computed data to a file "result_of_merged_data.txt" 
 6 activities x 30 individuals = 180 rows for mean values of 79 variables
