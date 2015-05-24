@@ -8,10 +8,11 @@ The data consists of sensor data of a group of 30 volunteers. Each person perfor
 The data is split up in a training and a testing set and contains more variables than the required mean and std values.
 # "run_analysis.R" does the following: 
 ## 1. Merges the data for training and testing 
-   creates X_data table of 10299 observations of 79 variables (sensor data)
+   creates X_data table of 10299 observations of 561 variables (sensor data)
    creates Y_data table of 10299 observations of 1 variable (activity)
    creates subject table of 10299 observations of 1 variable (subject)
 ## 2. Extracts "mean" and "std" of each measurement
+   extracts 79 columns ("means" and "std's") from the original data set
 ## 3. Uses descriptive activity info from "activity_labels.txt"
 ## 4. Labels extracted data ("mean_or_std") with subject and activity
 ## 6. Writes computed data to a file "result_of_merged_data.txt" 
